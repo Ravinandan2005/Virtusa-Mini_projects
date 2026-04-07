@@ -1,4 +1,4 @@
--- create database
+-- create database to be run only once seperately
 CREATE DATABASE retail_insights;
 
 -- create categories table
@@ -44,3 +44,30 @@ INSERT INTO sales_transactions (product_id, quantity_sold, transaction_date) VAL
 (2, 2, CURRENT_DATE - INTERVAL '40 days'),
 (3, 20, CURRENT_DATE - INTERVAL '5 days'),
 (4, 1, CURRENT_DATE - INTERVAL '70 days');
+
+-- view inserted product data
+SELECT * FROM products;
+
+-- products expiring within next 7 days
+SELECT product_name, stock_count, expiry_date FROM products WHERE expiry_date <= CURRENT_DATE + INTERVAL '7 days' AND stock_count > 50;
+
+-- products not sold in last 60 days
+SELECT p.product_name FROM products p LEFT JOIN sales_transactions s 
+ON p.product_id = s.product_id AND s.transaction_date >= CURRENT_DATE - INTERVAL '60 days'
+WHERE s.product_id IS NULL;
+
+-- revenue by category
+SELECT c.category_name, SUM(p.price * s.quantity_sold) AS revenue
+FROM sales_transactions s
+JOIN products p ON s.product_id = p.product_id
+JOIN categories c ON p.category_id = c.category_id
+WHERE s.transaction_date >= DATE_TRUNC('month', CURRENT_DATE)
+GROUP BY c.category_name;
+
+-- classify stock risk level
+SELECT product_name, stock_count,
+CASE WHEN expiry_date <= CURRENT_DATE + INTERVAL '7 days' AND stock_count > 50 THEN 'HIGH'
+WHEN stock_count < 20 THEN 'MEDIUM'
+ELSE 'LOW'
+END AS stock_risk
+FROM products;
