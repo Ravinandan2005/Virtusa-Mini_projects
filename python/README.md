@@ -79,5 +79,5 @@ The sample log file (ensora.log) is sourced from Ensora AI, a production web app
 
 ## Author
 
-Completed by: J N Ravinandan
-SRM University (Vadapalani)
+### Completed by: [J N Ravinandan](https://github.com/Ravinandan2005)
+### SRM University (Vadapalani)
