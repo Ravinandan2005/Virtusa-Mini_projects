@@ -1,0 +1,138 @@
+2026-04-08 09:00:17 | INFO | Interview analytics recomputed for /hod/bulk/reassign-students/upload
+2026-04-08 09:00:47 | INFO | Security token validated for /hod/class/{class_name}/students
+2026-04-08 09:01:31 | INFO | Request served successfully for /staff/interview/{session_id}
+2026-04-08 09:01:57 | INFO | Request served successfully for /hod/all-students
+2026-04-08 09:02:44 | ERROR | HTTP 422 validation failed on /interview/report/student/latest
+2026-04-08 09:03:14 | INFO | Session lifecycle cleanup completed after /staff/slots
+2026-04-08 09:03:42 | ERROR | HTTP 422 validation failed on /student/job-description/upload
+2026-04-08 09:04:25 | INFO | Security token validated for /hod/bulk/assign-students
+2026-04-08 09:05:09 | INFO | Bulk operation finished successfully for /speech/transcribe
+2026-04-08 09:05:43 | ERROR | Rate limit exceeded at /staff/students/create
+2026-04-08 09:06:21 | INFO | Request served successfully for /student/report/session/{session_id}/download
+2026-04-08 09:06:55 | INFO | Security token validated for /staff/report/student/{reg_no}/sessions
+2026-04-08 09:07:40 | ERROR | HTTP 401 unauthorized on /staff/features
+2026-04-08 09:08:13 | INFO | Session lifecycle cleanup completed after /interview/report/staff/{session_id}
+2026-04-08 09:08:41 | CRITICAL | CRITICAL worker crash while processing /staff/slots/{slot_id}/students
+2026-04-08 09:09:22 | ERROR | Database timeout while handling /staff/recent-interviews
+2026-04-08 09:09:59 | INFO | Interview analytics recomputed for /student/job-description/upload
+2026-04-08 09:10:46 | INFO | Report generation completed for /hod/staffs/{staff_reg_no}
+2026-04-08 09:11:11 | ERROR | HTTP 422 validation failed on /student/api-key
+2026-04-08 09:11:59 | ERROR | HTTP 422 validation failed on /staff/students/reassign
+2026-04-08 09:12:28 | INFO | Interview analytics recomputed for /hod/classes/by-name/{class_name}
+2026-04-08 09:12:58 | ERROR | Email service failure triggered by /hod/students/{student_reg_no}
+2026-04-08 09:13:44 | ERROR | HTTP 422 validation failed on /staff/students/{student_reg_no}
+2026-04-08 09:14:16 | ERROR | HTTP 401 unauthorized on /staff/analytics/class
+2026-04-08 09:14:50 | INFO | Security token validated for /hod/bulk/assign-students/upload
+2026-04-08 09:15:38 | INFO | Security token validated for /speech/transcribe
+2026-04-08 09:16:11 | ERROR | Database timeout while handling /staff/slots/{slot_id}/assign
+2026-04-08 09:16:42 | INFO | Session lifecycle cleanup completed after /hod/bulk/assign-students
+2026-04-08 09:17:24 | INFO | Bulk operation finished successfully for /hod/report/student/{student_reg_no}/download
+2026-04-08 09:18:01 | INFO | Session lifecycle cleanup completed after /hod/dashboard
+2026-04-08 09:18:32 | INFO | Report generation completed for /staff/interview/{session_id}
+2026-04-08 09:19:18 | ERROR | HTTP 401 unauthorized on /student/report/session/{session_id}/download
+2026-04-08 09:19:46 | INFO | Security token validated for /hod/report/student/{reg_no}/sessions
+2026-04-08 09:20:25 | INFO | Security token validated for /hod/report/department/download
+2026-04-08 09:21:04 | INFO | Bulk operation finished successfully for /staff/recent-interviews
+2026-04-08 09:21:49 | INFO | Session lifecycle cleanup completed after /hod/recent-interviews
+2026-04-08 09:22:27 | INFO | Report generation completed for /hod/staffs/assign
+2026-04-08 09:23:04 | ERROR | Email service failure triggered by /hod/profile
+2026-04-08 09:23:26 | ERROR | HTTP 404 resource not found on /staff/student/{reg_no}
+2026-04-08 09:24:07 | INFO | Report generation completed for /hod/report/class/{class_name}/download
+2026-04-08 09:24:57 | INFO | Security token validated for /student/api-key
+2026-04-08 09:25:17 | INFO | Report generation completed for /student/upload-resume
+2026-04-08 09:26:10 | ERROR | HTTP 404 resource not found on /hod/classes/{class_id}
+2026-04-08 09:26:33 | INFO | Security token validated for /auth/login
+2026-04-08 09:27:12 | INFO | Report generation completed for /staff/report/class/{class_id}
+2026-04-08 09:27:56 | CRITICAL | CRITICAL worker crash while processing /staff/analytics/class
+2026-04-08 09:28:37 | INFO | Request served successfully for /interview/answer
+2026-04-08 09:29:08 | INFO | Request served successfully for /hod/students/{student_reg_no}
+2026-04-08 09:29:52 | ERROR | HTTP 422 validation failed on /student/report/sessions
+2026-04-08 09:30:14 | INFO | Security token validated for /hod/staffs/{staff_reg_no}
+2026-04-08 09:30:51 | ERROR | Database timeout while handling /student/job-description
+2026-04-08 09:31:29 | INFO | Bulk operation finished successfully for /interview/technical-topics
+2026-04-08 09:32:17 | INFO | Bulk operation finished successfully for /student/features
+2026-04-08 09:32:54 | INFO | Request served successfully for /staff/report/session/{session_id}
+2026-04-08 09:33:19 | INFO | Request served successfully for /interview/report/student/latest
+2026-04-08 09:34:09 | INFO | Security token validated for /admin/research/export-session/{session_id}
+2026-04-08 09:34:36 | INFO | Interview analytics recomputed for /staff/report/session/{session_id}/download
+2026-04-08 09:35:10 | INFO | Interview analytics recomputed for /staff/assigned-students
+2026-04-08 09:36:03 | INFO | Session lifecycle cleanup completed after /hod/staffs
+2026-04-08 09:36:32 | INFO | Bulk operation finished successfully for /student/report/session/{session_id}/download
+2026-04-08 09:37:07 | INFO | Security token validated for /staff/student/{reg_no}
+2026-04-08 09:37:49 | ERROR | HTTP 401 unauthorized on /staff/report/session/{session_id}
+2026-04-08 09:38:14 | CRITICAL | CRITICAL memory pressure crossed threshold during /interview/report/staff/{session_id}
+2026-04-08 09:38:51 | INFO | Security token validated for /student/report/sessions
+2026-04-08 09:39:28 | INFO | Request served successfully for /staff/slots/{slot_id}/assign
+2026-04-08 09:40:12 | INFO | Interview analytics recomputed for /auth/verify-otp
+2026-04-08 09:40:50 | INFO | Request served successfully for /staff/slots/{slot_id}/assign
+2026-04-08 09:41:21 | INFO | Request served successfully for /staff/profile
+2026-04-08 09:42:00 | INFO | Security token validated for /hod/report/session/{session_id}/download
+2026-04-08 09:42:49 | ERROR | HTTP 401 unauthorized on /hod/analytics/department
+2026-04-08 09:43:21 | INFO | Security token validated for /staff/slots
+2026-04-08 09:43:54 | INFO | Interview analytics recomputed for /hod/bulk/assign-staff
+2026-04-08 09:44:25 | INFO | Bulk operation finished successfully for /staff/students/create
+2026-04-08 09:45:02 | CRITICAL | CRITICAL auth service degradation detected while serving /staff/bulk-upload
+2026-04-08 09:45:51 | INFO | Interview analytics recomputed for /interview/report/student/{session_id}
+2026-04-08 09:46:21 | INFO | Security token validated for /hod/all-students
+2026-04-08 09:47:00 | ERROR | Rate limit exceeded at /hod/profile
+2026-04-08 09:47:35 | INFO | Session lifecycle cleanup completed after /hod/bulk/assign-staff
+2026-04-08 09:48:11 | INFO | Session lifecycle cleanup completed after /admin/research/export-session/{session_id}
+2026-04-08 09:48:50 | ERROR | HTTP 404 resource not found on /student/job-description/{job_desc_id}
+2026-04-08 09:49:25 | INFO | Session lifecycle cleanup completed after /staff/students
+2026-04-08 09:50:13 | INFO | Report generation completed for /staff/recent-interviews
+2026-04-08 09:50:42 | INFO | Interview analytics recomputed for /interview/start
+2026-04-08 09:51:14 | INFO | Report generation completed for /student/request-access
+2026-04-08 09:52:05 | INFO | Security token validated for /staff/features
+2026-04-08 09:52:27 | INFO | Request served successfully for /staff/students/create
+2026-04-08 09:53:09 | INFO | Security token validated for /hod/dashboard
+2026-04-08 09:53:56 | INFO | Session lifecycle cleanup completed after /staff/report/student/{reg_no}/download
+2026-04-08 09:54:27 | INFO | Report generation completed for /staff/students
+2026-04-08 09:54:55 | INFO | Bulk operation finished successfully for /student/job-description/create
+2026-04-08 09:55:34 | ERROR | HTTP 404 resource not found on /student/profile
+2026-04-08 09:56:23 | CRITICAL | CRITICAL auth service degradation detected while serving /hod/report/class/{class_name}/download
+2026-04-08 09:56:46 | INFO | Request served successfully for /staff/report/session/{session_id}/download
+2026-04-08 09:57:26 | INFO | Interview analytics recomputed for /student/upload-resume
+2026-04-08 09:58:08 | INFO | Bulk operation finished successfully for /student/job-description/update/{job_desc_id}
+2026-04-08 09:58:48 | INFO | Bulk operation finished successfully for /hod/bulk/reassign-students
+2026-04-08 09:59:26 | INFO | Interview analytics recomputed for /student/job-description/update/{job_desc_id}
+2026-04-08 10:00:05 | INFO | Session lifecycle cleanup completed after /staff/report/class/download
+2026-04-08 10:00:43 | ERROR | HTTP 401 unauthorized on /hod/recent-interviews
+2026-04-08 10:01:05 | CRITICAL | CRITICAL database connectivity loss during /staff/features
+2026-04-08 10:01:50 | CRITICAL | CRITICAL auth service degradation detected while serving /staff/pending-reviews
+2026-04-08 10:02:32 | INFO | Report generation completed for /hod/staffs/reassign
+2026-04-08 10:02:57 | INFO | Interview analytics recomputed for /hod/report/department/download
+2026-04-08 10:03:35 | INFO | Interview analytics recomputed for /staff/students
+2026-04-08 10:04:08 | INFO | Session lifecycle cleanup completed after /hod/staff-activity
+2026-04-08 10:04:58 | INFO | Bulk operation finished successfully for /staff/report/session/{session_id}/download
+2026-04-08 10:05:27 | ERROR | Rate limit exceeded at /student/job-description/update/{job_desc_id}
+2026-04-08 10:06:02 | INFO | Report generation completed for /interview/answer
+2026-04-08 10:06:50 | INFO | Security token validated for /staff/report/class/download
+2026-04-08 10:07:18 | INFO | Request served successfully for /interview/answer
+2026-04-08 10:08:03 | INFO | Bulk operation finished successfully for /interview/answer
+2026-04-08 10:08:34 | INFO | Report generation completed for /staff/interview/{session_id}
+2026-04-08 10:09:12 | ERROR | Rate limit exceeded at /student/request-access
+2026-04-08 10:09:54 | INFO | Report generation completed for /hod/class/{class_name}
+2026-04-08 10:10:32 | INFO | Session lifecycle cleanup completed after /staff/slots
+2026-04-08 10:10:59 | INFO | Report generation completed for /student/features
+2026-04-08 10:11:41 | INFO | Request served successfully for /student/request-access
+2026-04-08 10:12:11 | INFO | Request served successfully for /staff/report/student/{reg_no}/download
+2026-04-08 10:13:02 | INFO | Request served successfully for /staff/students/create
+2026-04-08 10:13:24 | INFO | Session lifecycle cleanup completed after /staff/interview/{session_id}
+2026-04-08 10:14:02 | ERROR | Rate limit exceeded at /hod/class/{class_name}
+2026-04-08 10:14:45 | CRITICAL | CRITICAL worker crash while processing /staff/students/reassign
+2026-04-08 10:15:22 | INFO | Request served successfully for /admin/research/export-session/{session_id}
+2026-04-08 10:16:03 | CRITICAL | CRITICAL database connectivity loss during /hod/department-overview
+2026-04-08 10:16:30 | INFO | Interview analytics recomputed for /staff/report/class/download
+2026-04-08 10:17:15 | INFO | Interview analytics recomputed for /hod/staff-activity
+2026-04-08 10:17:51 | INFO | Report generation completed for /admin/research/export-session/{session_id}
+2026-04-08 10:18:32 | INFO | Session lifecycle cleanup completed after /staff/slots/{slot_id}/students
+2026-04-08 10:19:13 | CRITICAL | CRITICAL auth service degradation detected while serving /interview/end/{session_id}
+2026-04-08 10:19:40 | INFO | Session lifecycle cleanup completed after /hod/bulk/assign-students
+2026-04-08 10:20:12 | ERROR | FAILED LOGIN attempt for user admin from IP 192.168.1.10
+2026-04-08 10:21:05 | ERROR | FAILED LOGIN attempt for user staff123 from IP 10.0.0.5
+2026-04-08 10:21:47 | ERROR | FAILED LOGIN attempt for user student456 from IP 172.16.0.3
+2026-04-08 10:22:18 | CRITICAL | FAILED LOGIN brute force detected for user root from IP 203.0.113.45
+2026-04-08 10:23:02 | ERROR | FAILED LOGIN attempt for user guest from IP 192.168.1.25
+2 0 2 6 - 0 4 - 0 8   0 9 : 3 1 : 0 5   |   F A I L E D   L O G I N   |   I n v a l i d   c r e d e n t i a l s   f o r   u s e r   a d m i n   f r o m   1 9 2 . 1 6 8 . 1 . 1 0 0  
+ 2026-04-08 09:32:15 | FAILED LOGIN | Multiple brute force attempts from 203.0.113.45
+2026-04-08 09:33:02 | FAILED LOGIN | Invalid token for user john.doe@example.com
