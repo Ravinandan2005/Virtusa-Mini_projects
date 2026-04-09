@@ -1,14 +1,14 @@
 # Virtusa Use Case Assignments
 
-This repository contains the use case assignments completed as part of the Virtusa performance evaluation. These assignments focus on applying core concepts in SQL, Python, and Java to practical problems.
+This repository contains the use case assignments completed as part of the Virtusa performance evaluation. Each project demonstrates practical application of core programming concepts through real-world scenarios involving databases, automation, and object-oriented design.
 
 ---
 
 ## Technologies Covered
 
-* SQL (PostgreSQL)
-* Python
-* Java
+- SQL (Relational Database Design & Analysis)
+- Python (Automation & Pattern Matching)
+- Java (Object-Oriented Programming)
 
 ---
 
@@ -16,43 +16,73 @@ This repository contains the use case assignments completed as part of the Virtu
 
 ```
 virtusa-usecase-assignments/
-│
-├── sql/       → SQL use case (Retail Insights)
-├── python/    → Python use case (Yet to be decided)
-├── java/      → Java use case (Yet to be decided)
+├── README.md  (this file)
+├── sql/
+│   ├── README.md
+│   ├── retail-insights.sql
+│   └── outputs/
+├── python/
+│   ├── README.md
+│   ├── opsbot.py
+│   ├── ensora.log
+│   └── output/
+└── java_project/
+    ├── README.md
+    ├── Main.java
+    ├── Account.java
+    └── output/
 ```
 
 ---
 
-## Use Case Overview
+## Project Summaries
 
-### SQL Use Case: Retail Insights
+### 1. SQL Use Case: Retail Insights
 
-This use case focuses on designing a retail database and writing queries to:
+**Location:** [sql/](sql/)
 
-* Identify products nearing expiration
-* Detect unsold (dead stock) items
-* Analyze revenue by category
+Focuses on designing a retail database and writing queries to analyze inventory and sales data. The system identifies products nearing expiration, detects unused stock, and analyzes revenue contribution by category.
 
----
+**Technologies:** PostgreSQL, SQL queries
+**Key Skills:** Database design, JOIN operations, aggregate functions, date-based filtering
 
-### Python Use Case
-
-Yet to be decided.
-Will focus on solving a practical problem using core Python concepts.
+[View SQL Project](sql/)
 
 ---
 
-### Java Use Case
+### 2. Python Use Case: OpsBot - Security Alert Log Filter
 
-Yet to be decided.
-Will focus on implementing a structured solution using core Java concepts and OOP principles.
+**Location:** [python/](python/)
+
+Automation tool for IT Operations teams to filter server logs and identify security-critical events. The script reads raw log files, extracts security alerts (CRITICAL, ERROR, FAILED LOGIN), maintains frequency counts, and generates timestamped alert reports.
+
+**Technologies:** Python, file I/O, pattern matching, dictionary operations
+**Key Skills:** Log parsing, pattern matching with string methods, data structuring, automation
+
+[View Python Project](python/)
 
 ---
 
-## Objective
+### 3. Java Use Case: Bank Account Management System
 
-The main objective of these assignments is to strengthen problem-solving skills and gain hands on experience by working on real world scenarios.
+**Location:** [java_project/](java_project/)
+
+Console-based banking application that demonstrates object-oriented programming through practical account management operations. Users can perform deposits, withdrawals, view transaction history, and check balance with comprehensive error handling.
+
+**Technologies:** Java, OOP principles, exception handling, collections
+**Key Skills:** Encapsulation, data validation, exception handling, ArrayList management
+
+[View Java Project](java_project/)
+
+---
+
+## Quick Start
+
+Each project is self-contained with its own README file containing detailed setup and execution instructions:
+
+- **SQL:** Open retail-insights.sql in a PostgreSQL client and execute
+- **Python:** Run `python opsbot.py` in the python/ directory
+- **Java:** Compile with `javac *.java` and run `java Main` in the java_project/ directory
 
 ---
 
@@ -64,10 +94,8 @@ The main objective of these assignments is to strengthen problem-solving skills 
 
 ---
 
-## Status
+## Author
 
-* SQL Use Case: In Progress
-* Python Use Case: Yet to be decided
-* Java Use Case: Yet to be decided
-
+Completed by: J N Ravinandan
+SRM University (Vadapalani)
 ---
