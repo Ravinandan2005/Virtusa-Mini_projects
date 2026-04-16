@@ -1,1 +1,2 @@
 pdfplumber
+spacy # For NLP tasks

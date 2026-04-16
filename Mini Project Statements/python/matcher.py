@@ -1,4 +1,20 @@
 from skills import SKILLS
+import spacy
+
+#load nlp model
+nlp = spacy.load("en_core_web_sm")
+
+def extract_skills_nlp(text):
+    doc = nlp(text)
+    found_skills = set()
+    #token based matching
+    for token in doc:
+        if token.text.lower() in SKILLS:
+            found_skills.add(token.text.lower())
+    for skill in SKILLS:
+        if skill in text:
+            found_skills.add(skill)
+    return list(found_skills)
 
 #extract skills from the text and return a set of found skills
 def extract_skills(text):
